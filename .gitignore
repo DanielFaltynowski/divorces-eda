@@ -1,0 +1,63 @@
+# --- System files ---
+**/.DS_Store
+**/Thumbs.db
+
+# --- Python bytecode & cache ---
+**/__pycache__
+**/*.py[cod]
+**/*$py.class
+
+# --- Virtual environments ---
+**/.venv
+**/venv
+**/ENV
+**/env
+
+# --- Jupyter Notebook ---
+**/.ipynb_checkpoints
+**/.jupyter
+**/.jupyterlab-desktop
+
+# --- Python packaging ---
+**/build
+**/dist
+**/*.egg-info
+**/.eggs
+
+# --- Environment / secrets ---
+**/*.env
+**/.env.*
+**/*.ini
+**/*.cfg
+**/*.local
+**/secrets.json
+
+# --- Logs ---
+**/*.log
+**/logs
+
+# --- IDE / Editors ---
+**/.vscode
+**/.idea
+
+# --- OS cache ---
+**/*.swp
+**/*.swo
+
+# --- Data files (opcjonalnie) ---
+**/*.csv
+**/*.parquet
+**/*.xlsx
+**/*.sqlite
+**/data
+**/datasets
+
+# --- Pliki generowane przez wykresy ---
+**/*.svg
+**/*.png
+**/*.pdf
+
+# --- ML / modele / checkpointy ---
+**/checkpoints
+**/models
+**/runs
